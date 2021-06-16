@@ -1,0 +1,131 @@
+#countDown{
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#con {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: right;
+        float: right;
+        margin: 0 1.5%;
+}
+
+/* Add background color to navigation bar */
+.NaviBar {
+background-color: #f7943e;
+height: 70px;
+margin-top: 50px;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+}
+
+/* Style the text links inside the navigation bar */
+.NaviBar a {
+color: #f2f2f2;
+padding: 14px 28px;
+text-decoration: none;
+font-size: 20px;
+float: left;
+align-items: center;
+text-align: center;
+}
+
+/* Change the color of links on hover to red*/
+.NaviBar a.pastlineups:hover {
+background-color: #f27872;
+color: black;
+}
+/* Change the color of links on hover to green*/
+.NaviBar a.bites:hover {
+background-color: #92dea7;
+color: black;
+}
+/* Change the color of links on hover to blue*/
+.NaviBar a.newsletter:hover {
+background-color: #92cede;
+color: black;
+}
+/* Change the color of links on hover to pink*/
+.NaviBar a.contact:hover {
+background-color: #f5a4ed;
+color: black;
+}
+
+/* Right-aligned section of navigation */
+.NaviBar-right {
+float: right;
+align-items: center;
+text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f7943e;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  font-family: Times;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  float:left;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 12px 52.5px;
+  text-decoration: none;
+  display: block;
+  float: none;
+  text-align:left;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {background-color: #ffe4e3;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f75a52;color: black;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 2px solid black;
+}
+
+#logo {
+width: 130px;
+height: 75px;
+display:block;
+margin: auto;
+}
+        
